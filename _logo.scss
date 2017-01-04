@@ -1,21 +1,19 @@
 // ==========================================================================
-// LOGO
+// Logo Atom
 // ==========================================================================
-
 
 /*doc
 ---
 title: Logo
-name: 2_logo
+name: logo
 category: atoms
 ---
 
 ```html_example
-<div class="island island--pink cell">
-    <a href="/" class="logo">Central College Nottingham</a>
+<div class="island cell">
+    <a href="/" class="logo">Logo</a>
 </div>
 ```
-
 */
 
 .logo {
