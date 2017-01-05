@@ -17,7 +17,7 @@ category: atoms
 */
 
 .logo {
-    @include text-replace;
+    @include screen-reader-only();
     @include retina-image(logos, site-logo);
     display: block;
     width: rem-calc(125);
