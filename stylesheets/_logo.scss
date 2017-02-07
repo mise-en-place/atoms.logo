@@ -16,6 +16,11 @@ category: atoms
 ```
 */
 
+@import "utility-screen-reader-only";
+@import "tool-retina-image";
+@import "tool-rem-calc";
+@import "breakpoint";
+
 .logo {
     @include screen-reader-only();
     @include retina-image(logos, site-logo);
