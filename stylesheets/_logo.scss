@@ -16,10 +16,10 @@ category: atoms
 ```
 */
 
-@import "utility-screen-reader-only";
-@import "tool-retina-image";
-@import "tool-rem-calc";
-@import "breakpoint";
+@import "~mep-utilities.screen-reader-only";
+@import "~mep-tools.retina-image";
+@import "~mep-tools.rem-calc";
+@import "~breakpoint-sass";
 
 .logo {
     @include screen-reader-only();

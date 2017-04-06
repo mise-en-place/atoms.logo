@@ -1,15 +1,9 @@
 {
   "name": "mep-atoms.logo",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Base atom for logos",
   "main": "stylesheets/_logo.scss",
-  "eyeglass": {
-    "needs": "^1.0.0",
-    "name": "atom-logo",
-    "exports": "eyeglass-exports.js"
-  },
   "keywords": [
-    "eyeglass-module",
     "sass",
     "mise-en-place"
   ],
